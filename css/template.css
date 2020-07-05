@@ -5,5 +5,30 @@ body {
 /* DEBUG end */
 
 body {
-  margin-top: 56px !important;
+  font-family: "Forum", cursive;
+  font-size: 20px;
+  margin-top: 67px !important;
+}
+
+.bg-custom {
+  background-color: #322338;
+}
+
+.brand img {
+  position: relative;
+  top: -4px;
+}
+
+.navbar-brand {
+  line-height: 1.2rem;
+}
+
+.btn-custom {
+  background-color: #fff;
+  color: #322338;
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  background-color: #eee;
 }
