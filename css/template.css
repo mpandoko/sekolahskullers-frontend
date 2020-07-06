@@ -8,15 +8,12 @@ body {
   font-family: "Forum", cursive;
   font-size: 20px;
   margin-top: 64px !important;
+  position: relative;
 }
 
 /* Navbar */
 .bg-custom {
   background-color: #322338;
-}
-
-.navbar-brand {
-  font-size: 1.7rem;
 }
 
 /* Custom Button */
@@ -33,4 +30,33 @@ body {
 /* Icon */
 .icon {
   color: #fff !important;
+}
+
+/* Footer */
+footer {
+  background-color: #322338;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9em;
+  line-height: 0.5rem;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer img {
+  padding-right: 5px;
+}
+
+footer .ig a {
+  padding-right: 10px;
 }
