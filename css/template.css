@@ -4,8 +4,35 @@ body {
 }
 /* DEBUG end */
 
+/* Font */
+@font-face {
+  font-family: "piratesbayregular";
+  src: url("../font/piratesbay-webfont.woff2") format("woff2"),
+    url("../font/piratesbay-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "forumregular";
+  src: url("../font/forum-regular-webfont.woff2") format("woff2"),
+    url("../font/forum-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: piratesbayregular, cursive;
+}
+
+/* Style */
 body {
-  font-family: "Forum", cursive;
+  font-family: forumregular, cursive;
   font-size: 20px;
   margin-top: 64px !important;
   position: relative;
@@ -16,11 +43,15 @@ body {
   background-color: #322338;
 }
 
+.navbar-brand h4 {
+  font-size: 1.5rem;
+}
+
 /* Custom Button */
 .btn-custom {
   background-color: #fff;
   color: #322338;
-  font-weight: bold;
+  font-family: piratesbayregular, cursive;
 }
 
 .btn-custom:hover {
@@ -54,9 +85,9 @@ footer a:hover {
 }
 
 footer img {
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 footer .ig a {
-  padding-right: 10px;
+  margin-right: 20px;
 }
