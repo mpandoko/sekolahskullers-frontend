@@ -7,22 +7,19 @@ body {
 body {
   font-family: "Forum", cursive;
   font-size: 20px;
-  margin-top: 67px !important;
+  margin-top: 64px !important;
 }
 
+/* Navbar */
 .bg-custom {
   background-color: #322338;
 }
 
-.brand img {
-  position: relative;
-  top: -4px;
-}
-
 .navbar-brand {
-  line-height: 1.2rem;
+  font-size: 1.7rem;
 }
 
+/* Custom Button */
 .btn-custom {
   background-color: #fff;
   color: #322338;
@@ -31,4 +28,9 @@ body {
 
 .btn-custom:hover {
   background-color: #eee;
+}
+
+/* Icon */
+.icon {
+  color: #fff !important;
 }

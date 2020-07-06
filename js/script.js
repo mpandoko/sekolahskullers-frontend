@@ -1,5 +1,5 @@
 // Coba button
-const btn = document.querySelector("nav .btn");
+const btn = document.querySelector("nav .btn span");
 
 btn.addEventListener("click", () => {
   btn.innerHTML = "Ucup Surucup";
